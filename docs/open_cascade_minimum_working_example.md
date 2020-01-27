@@ -31,10 +31,10 @@ add_executable(${project_name}  ${SOURCE_FILES})
 
 # Add OpenCascade libraries
 target_link_libraries(${project_name} -Wl,--no-as-needed
-						-lTKernel -lTKMath
-						-lTKBRep -lTKG2d -lTKG3d -lTKGeomBase
-						-lTKGeomAlgo -lTKTopAlgo -lTKPrim -lTKBO -lTKShHealing -lTKFillet -lTKBool -lTKOffset
-						-lTKSTEPBase -lTKXSBase -lTKSTEPAttr -lTKSTEP209 -lTKSTEP -lTKIGES)
+	-lTKernel -lTKMath
+	-lTKBRep -lTKG2d -lTKG3d -lTKGeomBase
+	-lTKGeomAlgo -lTKTopAlgo -lTKPrim -lTKBO -lTKShHealing -lTKFillet -lTKBool -lTKOffset
+	-lTKSTEPBase -lTKXSBase -lTKSTEPAttr -lTKSTEP209 -lTKSTEP -lTKIGES)
 
 ```
 
