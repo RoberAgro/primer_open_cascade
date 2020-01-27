@@ -18,7 +18,7 @@ If you wanted to try out OpenCascade, but you were not sure about how to get sta
 <p align="center">
         <img src="./docs/figures/cpp_logo.svg" height="150" width="150"/>
         &emsp; &emsp; &emsp; &emsp; &emsp;
-        <img src="./docs/figures/open_cascade_logo.png" height="150" width="550"/>
+        <img src="./docs/figures/open_cascade_logo.png" height="150" width="500"/>
 </p>
 <p style="margin-bottom:1cm;"> </p>
 
@@ -35,8 +35,12 @@ The repository is organized as follows:
 	
 
 
+<p style="margin-bottom:1cm;"> </p>
+<p align="center">
+        <img src="./docs/figures/cube_model.png" height="250" width="250"/>
+</p>
+<p style="margin-bottom:1cm;"> </p>
 
-![](docs/figures/cube_model.png)
 
 **We hope that this repository can be useful to OpenCascade newcomers!**
 
