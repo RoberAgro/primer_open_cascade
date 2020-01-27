@@ -1,0 +1,4 @@
+/home/robertoa/my_software/jet_brains/clion/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/robertoa/my_GIT/primer_open_cascade/open_cascade_demos/open_cascade_minimum_working_example
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/robertoa/my_GIT/primer_open_cascade/open_cascade_demos/open_cascade_minimum_working_example/cmake-build-debug

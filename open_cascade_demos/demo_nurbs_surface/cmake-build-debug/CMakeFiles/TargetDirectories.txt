@@ -1,0 +1,3 @@
+/home/robertoa/my_GIT/primer_open_cascade/open_cascade_demos/demo_nurbs_surface/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/robertoa/my_GIT/primer_open_cascade/open_cascade_demos/demo_nurbs_surface/cmake-build-debug/CMakeFiles/demo_nurbs_surface.dir
+/home/robertoa/my_GIT/primer_open_cascade/open_cascade_demos/demo_nurbs_surface/cmake-build-debug/CMakeFiles/edit_cache.dir
