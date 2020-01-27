@@ -30,8 +30,8 @@ The first step is to load the libraries used in our project, including (of cours
 We can also use the `std` namespace to make our code less verbose:
 
 ```cpp
-	 // Define namespaces
-	 using namespace std; 
+ // Define namespaces
+ using namespace std; 
 ```
 
 Now we start the `main()` function of our project, which should look something like this:
