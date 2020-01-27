@@ -18,7 +18,7 @@ If you wanted to try out OpenCascade, but you were not sure about how to get sta
 <p align="center">
         <img src="./docs/figures/cpp_logo.svg" height="150" width="150"/>
         &emsp; &emsp; &emsp; &emsp; &emsp;
-        <img src="./docs/figures/open_cascade_logo.png" height="150" width="470"/>
+        <img src="./docs/figures/open_cascade_logo.png" height="150" width="450"/>
 </p>
 <p style="margin-bottom:1cm;"> </p>
 
