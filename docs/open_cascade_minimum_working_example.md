@@ -54,7 +54,7 @@ You can define the environmental variables used in the `CMakeLists.txt` file add
 Now that we have prepared the `CMakeLists.txt` file of the project we can write our C++ code.
 The code snippet below is a minimum working example showing how to create a box using OpenCascade.
 You should be able to compile this example straight ahead if the installation was successful.
-Check out the [detailed explanation of the minimum working example](./adolc_minimum_working_example_explanation.md) if you want to learn more about how OpenCascade works. 
+Check out the [detailed explanation of the minimum working example](./open_cascade_minimum_working_example_explanation.md) if you want to learn more about how OpenCascade works. 
 
 
 
