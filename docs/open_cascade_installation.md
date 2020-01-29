@@ -183,6 +183,10 @@ The latest stable release by the time this manual was prepared was  `v7.4.0`
 	 To do this replace the `make` command by:
 	
 			make -j $(nproc)
+	
+	You can also exclude one processor to have some avilable resources to work on your computer if desired:
+	
+		make -j$(nproc --ignore=2)
 		
 	- You may encounter several errors during the `make` execution. Most of them will be because you lack some files or utilities in you computer. If this happens, read the error message and try to look for answers in Google, you will manage to solve the errors!
 		
