@@ -22,7 +22,7 @@ For the rest of the instructions we will assume that we are working on the `open
 
 
 
-## 2. Installing the required third party
+## 2. Installing the required third party libraries
 
 In order to compile OpenCascade we need to install three external libraries, namely: `Tcl`, `Tk`, and `FreeType2`.
 The rest of this section explains how to install these libraries in a step by step manner.
@@ -184,7 +184,7 @@ The latest stable release by the time this manual was prepared was  `v7.4.0`
 	
 			make -j $(nproc)
 	
-	You can also exclude one processor to have some avilable resources to work on your computer if desired:
+		You can also exclude one processor to spare some resources and be able to work on your computer during compilation if desired:
 	
 			make -j$(nproc --ignore=2)
 		
@@ -194,7 +194,7 @@ The latest stable release by the time this manual was prepared was  `v7.4.0`
 		
 			sudo make install
 
-The compilation may take quite a while, ejoy a cup of coffee. If the installation is successful you should be able to see that new directories poped-up in the `open_cascade_installation` directory.
+The compilation may take quite a while... enjoy a cup of coffee. If the installation is successful you should be able to see that new directories poped-up in the `open_cascade_installation` directory.
 
 
 To check that OpenCascade is running on your system you can try to compile and execute the [minimum working example](./open_cascade_minimum_working_example.md) provided in this repository.
