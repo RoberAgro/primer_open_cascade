@@ -129,7 +129,7 @@ return status;
 ```
 
 
-We can finish our program loading the exported .step file into graphical user interface (GUI) to visualize the OpenCascade model. In this example we use the FreeCAD GUI to visualize our model
+We can finish our program loading the exported .step file into a graphical user interface (GUI) to visualize the OpenCascade model. In this example we use the FreeCAD GUI to visualize our model
 
 ```cpp	
 int main() {

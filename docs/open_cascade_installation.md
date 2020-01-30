@@ -26,7 +26,7 @@ For the rest of the instructions we will assume that we are working on the `open
 
 In order to compile OpenCascade we need to install three external libraries, namely: `Tcl`, `Tk`, and `FreeType2`.
 The rest of this section explains how to install these libraries in a step by step manner.
-You can also check the official instructions to install the third party libraries [here](https://www.opencascade.com/doc/occt-7.4.0/overview/html/occt_dev_guides__building_3rdparty_linux.html)
+You can also check the official instructions about how to install the third party libraries [here](https://www.opencascade.com/doc/occt-7.4.0/overview/html/occt_dev_guides__building_3rdparty_linux.html)
 
 
 
@@ -144,7 +144,7 @@ We will also use the CMake GUI to make the installation of OpenCascade more intu
 
 Now that we installed the required third party libraries and CMake we can compile the OpenCascade source files.
 
-To do that we will set the configuration options using the CMake GUI and the build the library using the gnu-commands `make` and `make install`.  The detailed steps are as follows:
+To do that we will set the configuration options using the CMake GUI and then build the library using the gnu-commands `make` and `make install`.  The detailed steps are as follows:
 
 - First, create the directories `open_cascade_sources`, ` open_cascade_build` and ` open_cascade_installation`  that will be used during the installation.
 
@@ -188,7 +188,7 @@ The latest stable release by the time this manual was prepared was  `v7.4.0`
 	
 			make -j$(nproc --ignore=2)
 		
-	- You may encounter several errors during the `make` execution. Most of them will be because you lack some files or utilities in you computer. If this happens, read the error message and try to look for answers in Google, you will manage to solve the errors!
+	- You may encounter several errors during the `make` execution. Most of them will be because you lack some files or libraries in you computer. If this happens, read the error message and try to look for answers in Google, you will manage to solve the errors!
 		
 	- If `make install` fails due to lack of permissions try:
 		
