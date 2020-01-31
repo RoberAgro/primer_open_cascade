@@ -11,7 +11,13 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="78eae329-d694-47b7-b666-cb2d23928111" name="Default Changelist" comment="" />
+    <list default="true" id="78eae329-d694-47b7-b666-cb2d23928111" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo_nurbs_surface.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/demo_nurbs_surface.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/demo_nurbs_surface" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/demo_nurbs_surface" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/nurbs_surface.step" beforeDir="false" afterPath="$PROJECT_DIR$/output/nurbs_surface.step" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,34 +43,39 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="194" selection-start-line="194" selection-end-line="194" />
+            <state relative-caret-position="-300">
+              <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/demo_NURBS_surface.cpp" />
-        <option value="$PROJECT_DIR$/main.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/main.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
     <option name="x" value="1029" />
-    <option name="y" value="-2" />
+    <option name="y" value="27" />
     <option name="width" value="1531" />
-    <option name="height" value="1442" />
+    <option name="height" value="1366" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -76,10 +87,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -116,28 +127,29 @@
       <updated>1580137500111</updated>
       <workItem from="1580137501522" duration="769000" />
       <workItem from="1580143991759" duration="24000" />
+      <workItem from="1580471654035" duration="279000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="793000" />
+    <option name="totallyTimeSpent" value="1072000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1029" y="-2" width="1531" height="1442" extended-state="4" />
+    <frame x="1029" y="27" width="1531" height="1366" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15353535" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15555556" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32927758" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32902184" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" />
-      <window_info anchor="bottom" id="Messages" order="8" weight="0.32927758" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32902184" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="11" />
@@ -162,8 +174,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="194" selection-start-line="194" selection-end-line="194" />
+        <state relative-caret-position="-300">
+          <caret line="68" column="29" lean-forward="true" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="29" />
         </state>
       </provider>
     </entry>
