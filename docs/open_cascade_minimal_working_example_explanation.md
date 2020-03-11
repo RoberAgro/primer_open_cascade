@@ -156,4 +156,4 @@ In case you do not have [FreeCAD](https://www.freecadweb.org/) installed you can
 
 If the installation was successful you should be able to compile the C++ program and visualize the OpenCascade model in the FreeCAD GUI.
 
- ![cube_model](./figures/cube_model.png)
+ ![cube_model](./images/cube_model.png)
