@@ -6,8 +6,8 @@
 This document provides a detailed explanation of how to install the OpenCascade library in Linux compiling the source files.
 Although it is possible to install the software following the [official installation instructions](https://www.opencascade.com/doc/occt-7.4.0/overview/html/occt_dev_guides__building.html), we felt that it could be beneficial to prepare a more accessible description of the installation process for those without a strong programming language.
 
-In addition, we felt that the official documentation was lacking a minimum working example that the user could run to make sure that the installation was successful.
-For this reason we prepared a [simple C++ demonstration project](./open_cascade_minimum_working_example.md) that can be compiled to check that the installation process was successful and also to serve as a starting point for the user to developt their own CAD models using OpenCascade.
+In addition, we felt that the official documentation was lacking a minimal working example that the user could run to make sure that the installation was successful.
+For this reason we prepared a [simple C++ demonstration project](./open_cascade_minimal_working_example.md) that can be compiled to check that the installation process was successful and also to serve as a starting point for the user to developt their own CAD models using OpenCascade.
 
 
 
@@ -30,7 +30,7 @@ You can also check the official instructions about how to install the third part
 
 
 
-	
+
 #### 2.1. Tcl installation
 
 The Tcl library can be compiled using the [usual gnu triplet](https://www.howtogeek.com/105413/how-to-compile-and-install-from-source-on-ubuntu/):
@@ -52,9 +52,9 @@ The detailed steps are as follows:
 		./configure --enable-gcc  --enable-shared --enable-threads --prefix=${HOME}/my_software/open_cascade-7.4.0/tcl_installation
 		make
 		make install
-	
+
 You should replace the option `--prefix` with the correct path to the `tcl_installation` directory on your machine.
-	
+
 This may take a while. If the installation was successful you should be able to see that new directories poped-up in the `tcl_installation` directory.
 
 
@@ -81,9 +81,9 @@ The detailed steps are as follows:
 		./configure --enable-gcc  --enable-shared --enable-threads --with-tcl=${HOME}/my_software/open_cascade-7.4.0/tcl_sources/unix --prefix=${HOME}/my_software/open_cascade-7.4.0/tk_installation
 		make
 		make install
-	
+
 You should replace the option ` --with-tcl` with the correct path to the `tcl_sources/unix` directory and the option `--prefix` with the correct path to the `tk_installation` directory on your machine.
-	
+
 This may take a while. If the installation was successful you should be able to see that new directories poped-up in the `tk_installation` directory.
 
 
@@ -109,9 +109,9 @@ The detailed steps are as follows:
 		./configure  --prefix=${HOME}/my_software/open_cascade-7.4.0/freetype2_installation
 		make
 		make install
-	
+
 You should replace the option `--prefix` with the correct path to the `freetype2_installation` directory on your machine.
-	
+
 This may take a while. If the installation was successful you should be able to see that new directories poped-up in the `freetype2_installation` directory
 
 
@@ -134,7 +134,7 @@ In case you do not have CMake already installed in your system you can learn how
 If you do that, you will soon find out that you can install CMake with this simple command:
 
 	sudo apt-get install cmake
-	
+
 We will also use the CMake GUI to make the installation of OpenCascade more intuitive, we can install it by typing:
 
 	sudo apt-get install cmake-qt-gui
@@ -149,7 +149,7 @@ To do that we will set the configuration options using the CMake GUI and then bu
 - First, create the directories `open_cascade_sources`, ` open_cascade_build` and ` open_cascade_installation`  that will be used during the installation.
 
 	 	mkdir open_cascade_source open_cascade_build open_cascade_installation
-		 
+
 
 - Then download the OpenCascade source files from the [official side](https://www.opencascade.com/content/latest-release) and extract them into the `open_cascade_sources` directory.
 The latest stable release by the time this manual was prepared was  `v7.4.0`
@@ -160,7 +160,7 @@ The latest stable release by the time this manual was prepared was  `v7.4.0`
 	2. The path to the directory where to build the binaries
 
 	and then press the `Configure` buttom. Once the configuration is complete, you will see a list of environmental variables that have to be speficied.	For a standard installation you only have to specify the paths to
-	
+
 	1. `INSTALL_DIR` should point to the `open_cascade_installation` directory
 	2. `3RDPARTY_FREETYPE_DIR` should point to the `freetype2_installation` directory
 	3. `3RDPARTY_TCL_DIR` should point to the `tcl_installation` directory
@@ -172,24 +172,24 @@ The latest stable release by the time this manual was prepared was  `v7.4.0`
 
 
 -  Go to the `open_cascade_build` directory and run the `make` and `make install` commands to complete the installation:
-		
+
 		cd open_cascade_build
 		make
 		make install
-		
+
 	Observations:
-	
+
 	- You can speed up the process by running `make install` in parallel with all the processors of your computer.
 	 To do this replace the `make` command by:
-	
+
 			make -j $(nproc)
-	
+
 		You can also exclude one processor to spare some resources and be able to work on your computer during compilation if desired:
-	
+
 			make -j$(nproc --ignore=2)
-		
+
 	- You may encounter several errors during the `make` execution. Most of them will be because you lack some files or libraries in you computer. If this happens, read the error message and try to look for answers in Google, you will manage to solve the errors!
-		
+
 	- If `make install` fails due to lack of permissions try:
 		
 			sudo make install
@@ -197,9 +197,4 @@ The latest stable release by the time this manual was prepared was  `v7.4.0`
 The compilation may take quite a while... enjoy a cup of coffee. If the installation is successful you should be able to see that new directories poped-up in the `open_cascade_installation` directory.
 
 
-To check that OpenCascade is running on your system you can try to compile and execute the [minimum working example](./open_cascade_minimum_working_example.md) provided in this repository.
-
-
-
-
- 
+To check that OpenCascade is running on your system you can try to compile and execute the [minimal working example](./open_cascade_minimal_working_example.md) provided in this repository.
